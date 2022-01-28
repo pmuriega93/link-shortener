@@ -28,11 +28,7 @@ export default {
             const { id } = await fetch('https://api-ssl.bitly.com/v4/shorten', {
                 method: 'POST',
                 headers: {
-<<<<<<< HEAD
                     'Authorization': `${process.env.VUE_APP_API_KEY}`,
-=======
-                    'Authorization': '1c8a2dcaa68d71aff562de998d9864fc49a94aca',
->>>>>>> refs/remotes/origin/main
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
